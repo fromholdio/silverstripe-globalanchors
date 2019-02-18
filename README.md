@@ -42,6 +42,6 @@ DropdownField::create(
 
 ```php
 $key = $this->GlobalAnchorKey;
-$anchorTitle = SystemLinks::get_anchor_title($key);
+$anchorTitle = GlobalAnchors::get_anchor_title($key);
 ```
 
