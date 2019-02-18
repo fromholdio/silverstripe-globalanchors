@@ -19,7 +19,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Fromholdio\\SystemLinks\\": "src/"
+			"Fromholdio\\GlobalAnchors\\": "src/"
 		}
 	},
 	"prefer-stable": true,
