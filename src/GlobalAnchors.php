@@ -14,6 +14,11 @@ class GlobalAnchors
 
     private static $anchors = [];
 
+    public static function add_to_class($class, $extensionClass, $args = null)
+    {
+        // NOP
+    }
+
     public static function get_anchors()
     {
         $anchors = self::config()->get('anchors');
