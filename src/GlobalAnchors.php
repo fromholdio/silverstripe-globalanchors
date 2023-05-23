@@ -19,26 +19,15 @@ class GlobalAnchors
         // NOP
     }
 
-    public static function get_anchors()
+    public static function get_anchors() : ?array
     {
         $anchors = self::config()->get('anchors');
-        if (!$anchors || count($anchors) < 1) {
-            return null;
-        }
-        return $anchors;
+        return empty($anchors) ? null : $anchors;
     }
 
-    public static function get_anchor_title($key)
+    public static function get_anchor_title($key) : ?string
     {
         $anchors = self::get_anchors();
-        if (!$anchors) {
-            return null;
-        }
-
-        if (!isset($anchors[$key])) {
-            return null;
-        }
-
-        return $anchors[$key];
+        return $anchors[$key] ?? null;
     }
 }
