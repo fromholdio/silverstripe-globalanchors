@@ -6,7 +6,7 @@ Intended to work inconjunction with modules that allow users to build links, or 
 
 ## Requirements
 
-SilverStripe 4
+SilverStripe 4 or 5
 
 ## Installation
 
