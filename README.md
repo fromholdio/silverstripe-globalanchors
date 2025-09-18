@@ -6,7 +6,7 @@ Intended to work inconjunction with modules that allow users to build links, or 
 
 ## Requirements
 
-SilverStripe 4 or 5
+SilverStripe 4 or 5 or 6
 
 ## Installation
 
@@ -44,4 +44,3 @@ DropdownField::create(
 $key = $this->GlobalAnchorKey;
 $anchorTitle = GlobalAnchors::get_anchor_title($key);
 ```
-
