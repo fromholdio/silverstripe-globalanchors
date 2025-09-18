@@ -4,9 +4,9 @@
 	"description": "A SilverStripe module that allows developers to define a static list of global html anchors - #nav, #content, etc - allowing them to be used for constructing links and etc by CMS users.",
 	"license": "BSD-3-Clause",
 	"keywords": ["silverstripe", "cms", "anchor", "links"],
-	"homepage": "https://github.com/fromholdio/silverstripe-systemlinks",
+	"homepage": "https://github.com/fromholdio/silverstripe-globalanchors",
 	"support": {
-		"issues": "https://github.com/fromholdio/silverstripe-systemlinks/issues"
+		"issues": "https://github.com/fromholdio/silverstripe-globalanchors/issues"
 	},
 	"authors": [{
 		"name": "Luke Fromhold",
